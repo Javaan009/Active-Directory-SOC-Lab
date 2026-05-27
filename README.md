@@ -40,6 +40,37 @@ The environment simulates a small enterprise network with:
 [ Kali Linux ] ---- Attack Simulation
 ```
 
-## ✅ Purpose
+## ✅ Completed Tasks
 
-This lab provides a practical environment for learning how attackers move through Active Directory and how SOC analysts detect, investigate, and respond to suspicious activity in enterprise Windows environments.
+- Installed Windows Server 2022
+- Configured DC01 as Domain Controller
+- Created corp.local domain
+- Created Organizational Units (OUs)
+- Created enterprise user accounts
+- Created privileged admin account
+- Joined CLIENT01 to domain
+
+## 🚧 In Progress
+
+- Splunk installation
+- Sysmon deployment
+- Log ingestion
+- Detection engineering
+- Threat hunting scenarios
+
+## 🧠 Skills Learned
+
+- Active Directory administration
+- Windows domain management
+- Enterprise authentication workflows
+- User and group management
+- SOC lab architecture
+
+## 🚀 Future Improvements
+
+- Splunk SIEM integration
+- Microsoft Sentinel integration
+- Sysmon logging
+- Brute force detection
+- PowerShell threat detection
+- Incident response playbooks
