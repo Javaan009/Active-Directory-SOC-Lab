@@ -33,11 +33,21 @@ The environment simulates a small enterprise network with:
 ## 🧱 Lab Architecture
 
 ```text
-[ DC01 ] ---- Domain Controller
-     |
-[ CLIENT01 ] ---- Domain Joined Workstation
-     |
-[ Kali Linux ] ---- Attack Simulation
+[ DC01 ] -------------------- Domain Controller
+    |
+    +-- Active Directory
+    +-- DNS Server
+
+[ CLIENT01 ] ----------------- Domain Joined Workstation
+    |
+    +-- Authentication Logs
+    +-- Windows Event Logs
+
+[ SPLUNK01 ] ----------------- SIEM Platform
+    |
+    +-- Log Ingestion
+    +-- Threat Detection
+    +-- Event Analysis
 ```
 
 ## ✅ Completed Tasks
